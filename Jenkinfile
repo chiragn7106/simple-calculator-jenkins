@@ -1,5 +1,9 @@
 pipeline {
     agent any
+<<<<<<< HEAD
+=======
+    
+>>>>>>> f938ee3 (Update project code)
     tools{
     	jdk 'JDK 25'
     	maven 'Maven-3.10'
