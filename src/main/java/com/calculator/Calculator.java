@@ -9,17 +9,6 @@ public class Calculator {
         return a - b;
     }
 
-    public boolean isPositive(int number) {
-        if (number > 0) {
-            return true;
-        } else if (number < 0) {
-            return false;
-        } else if (number > 0) {
-            return true;
-        } else {
-            return false;
-        }
-    }
 
     public static void main(String[] args) {
         Calculator calc = new Calculator();
